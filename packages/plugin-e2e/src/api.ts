@@ -22,6 +22,7 @@ import {
 import { grafanaE2ESelectorEngine } from './selectorEngine';
 import { ExplorePage } from './models/pages/ExplorePage';
 import options from './options';
+import { AlertRulePage } from './models/AlertRulePage';
 
 export type PluginOptions = {
   /**
@@ -136,6 +137,8 @@ export type PluginFixture = {
    * row locator for a given query refId
    */
   explorePage: ExplorePage;
+
+  alertRulePage: AlertRulePage;
 
   /**
    * Fixture command that will create an isolated DataSourceConfigPage instance for a given data source type.
