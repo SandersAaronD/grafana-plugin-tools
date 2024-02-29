@@ -1,9 +1,9 @@
 import * as semver from 'semver';
-import { AlertRuleArgs, NavigateOptions, PluginTestCtx, RequestOptions } from '../types';
+import { AlertRuleArgs, NavigateOptions, PluginTestCtx, RequestOptions } from '../../types';
 import { GrafanaPage } from './GrafanaPage';
-import { AlertRuleQuery } from './AlertRuleQuery';
+import { AlertRuleQuery } from '../components/AlertRuleQuery';
 
-export class AlertRulePage extends GrafanaPage {
+export class AlertRuleEditPage extends GrafanaPage {
   constructor(readonly ctx: PluginTestCtx, readonly args?: AlertRuleArgs) {
     super(ctx);
   }

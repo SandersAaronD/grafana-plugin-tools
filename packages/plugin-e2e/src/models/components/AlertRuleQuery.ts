@@ -1,6 +1,6 @@
 import { DataSourcePicker } from './DataSourcePicker';
-import { GetByTestIdOrAriaLabelOptions, PluginTestCtx } from '../types';
-import { GrafanaPage } from './GrafanaPage';
+import { GetByTestIdOrAriaLabelOptions, PluginTestCtx } from '../../types';
+import { GrafanaPage } from '../pages/GrafanaPage';
 import { Locator } from '@playwright/test';
 
 export class AlertRuleQuery extends GrafanaPage {
