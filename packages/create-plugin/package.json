@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/create-plugin",
+  "name": "@sandersaarond/grafana-create-plugin",
   "version": "4.2.4",
   "repository": {
     "directory": "packages/create-plugin",
